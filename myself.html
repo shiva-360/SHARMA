@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my self page</title>
+    <link rel="stylesheet" href="myself.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+    <script src="script/signin.js"></script>
+</head>
+
+<body>
+    <div class=" main-container">
+        <div class=" container">
+            <div class=" side-logo">
+                <img src="https://ssl.gstatic.com/accounts/signup/glif/account.svg" class="logo-side-img" width="500">
+                <p>One account. All of Google working for you.</p>
+            </div>
+
+            <div class="google-logo">
+                <img src="/home/shivansh/assignment/pic.jpg" width="90px" class="img1">
+            </div>
+            <div class="heading">
+                Create your Google Account
+            </div>
+            <form name="myform" onsubmit="return validateform()">
+                <div class="input-field">
+                    <input type="text" placeholder="Name" class="fname" name="name">
+
+                    <input type="text" placeholder="Last Name" class="fname" name="name">
+                    <span>
+                        <div id="name_error">Enter first name and surname</div>
+                    </span>
+                </div>
+                <div class="email">
+                    <div class="div-email">
+                        <input type="email" placeholder="User name" class="input-email" name="email">
+                        <label id="@gmail">@gmail.com</label>
+                        <span>
+                            <div id="email_error">choose a Gmail address</div>
+                        </span>
+                    </div>
+                    <div class="pswrd-msg">You can Use Number,Letter & periods</div>
+                    <div class="current-email">
+                        <a class="a-current-email" href="#">Use my current email address instead</a>
+
+                    </div>
+                </div>
+                <div class="user-input">
+                    <input type="Password" placeholder="Password" class="pswrd-user-input" id="pswrd" name="password">
+                    <input type="password" placeholder="Confirm" class="pswrd-user-input" id="cpswrd" name="password">
+
+                    <span>
+                        <div id="password_error">Use 8 characters or more for your password</div>
+                    </span>
+                </div>
+                <div class="user-input-msg">Use 8 or more characters with a mix of letters, numbers & symbols
+
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" class="input-checkbox" onclick="showname()"><label>Show Password</label>
+                </div>
+                <div class="sign-in-instead">
+                    <span class="span-sign-in"><a class="anchor-sign-in-instead" href="googlesignin.html">Sign in
+                            instead</a></span>
+                    <span class="span-btn"><button type="submit" value="Next" class="btn">Next</button>
+                </div>
+
+
+
+
+            </form>
+        </div>
+    </div </body>
+
+</html>

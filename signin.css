@@ -1,0 +1,308 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+.main-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    width:100%;
+
+
+}
+.container{
+    width:30%;
+    height:450px;
+    padding:30px;
+    border:0.5px solid #b2bec3;
+    box-shadow:0px 0px 2px 0px #dadce0;
+    
+    margin-top:6%;
+    border-radius:6px 6px;
+
+
+
+}
+.google-logo{
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    height:65px;
+    padding:0px;
+    
+}
+
+img{
+   margin:0px;
+    
+    
+}
+.sign-in{
+    font-size:25px;
+
+
+}
+.heading{
+    
+    height:50px;
+    margin-top:0px;
+    text-align:center;
+    padding:0px;
+    font-weight:100px;
+
+}
+.line{
+    text-align:center;
+}
+.text-box{
+    text-align:center;
+    padding:10px;
+
+}
+.input-box{
+    margin-top:20px;
+    padding:10px;
+    width:80%;
+    height:30px;
+    border:1px solid #dadce0;
+    border-radius:3px 3px;
+    outline:none;
+
+}
+.input-box:focus{
+    
+    border:2px solid blue;
+    
+
+}
+
+
+
+
+
+#name_error{
+    font-size:12px;
+    margin-left:45px;
+    visibility:hidden;
+    color:red;
+}
+    
+
+.forget{
+    margin-left:44px;
+    text-decoration:none;
+}
+.message{
+    margin-left:42px;
+    margin-top:44px;
+    font-size:14px;
+   
+}
+.learn-more a{
+    margin-left:45px;
+
+}
+
+a{
+    text-decoration:none;
+    color:#1a73e8;
+    
+}
+.create-account{
+    margin-top:40px;
+    margin-left:42px;
+    
+}
+.btn{
+    margin-top:40px;
+}
+#btn{
+    margin-left: calc(35px + (124 - 74) * (100vw - 366px) / (1920 - 366));
+    background-color:#1a73e8;
+    color:white;
+    border:2px solid #1a73e8;
+    height:35px;
+    width:71px;
+    border-radius:4px 4px;
+    
+}
+
+
+
+ul{
+    
+
+    padding:none;
+    font-size:13px;
+    display:flex;
+    justify-content:center;
+    
+
+
+}
+.foot-content{
+    margin-left:0px;
+    padding-left:18px;
+}
+
+li,li a{
+    list-style:none;
+    color:gray;
+
+}
+.english{
+    margin-left:-14px;
+}
+
+#button{
+    margin-left:30px;
+}
+.dropbtn {
+
+    color: #1a73e8;
+    margin-left:34px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background:none;
+    
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    cursor:pointer;
+    background-color:lightblue
+  }
+  .dropdown {
+    position: relative;
+    float:left;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: -143px;
+    left: -46px;
+    right: -70px;
+
+    min-width: 160px;
+    overflow: auto;
+    border:1px solid #dadce0;
+    border-radius:5px 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 0;
+    margin-left:30px;
+    background:white;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    font-size:15px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor:pointer;
+    
+  }
+  .drop-content a:hover{
+    background:#ddd;
+    cursor:pointer;
+  }
+  
+  .dropdown a:hover {
+
+    background-color: #ddd;
+    cursor:pointer;
+    
+}
+  
+  .show {
+    display: block;
+        }
+
+
+@media (max-width:500px){
+    .container{
+        width:100%;
+        margin-left:10px;
+        border:none;
+        overflow:auto;
+        border-radius:none;
+        height:500px;
+    }
+    .input-box{
+        width:80%%;
+    }
+    .foot-content{
+        margin-left:15px;
+    }
+    .english{
+        margin-left:0px;
+
+    }
+    
+}
+
+@media (min-width:501px) and (max-width:767px){
+
+    .container{
+        width:100%;
+        margin-left:10px;
+        border:none;
+        padding:0px;
+        border-radius:none;
+
+    }
+    .message{
+        margin-left:60px;
+    }
+    .learn-more a{
+        margin-left:58px;
+    }
+    .forget{
+        margin-left:60px;
+    }
+    .dropbtn{
+        margin-left:53px;
+    }
+    .english{
+        margin-right:-14px;
+    }
+
+}
+@media (min-width:768px) and (max-width:1024px){
+    .container{
+        width:68%;
+        margin-left:7px;
+        border:none;
+    }
+    .input-box{
+        width:80%;
+        margin-left:-4px;
+    }
+    
+    .learn-more a{
+        margin-left:81px;
+    }
+    .message{
+        margin-left:80px;
+    }
+    .forget{
+        margin-left:81px;
+    }
+    .dropbtn{
+        margin-left:70px;
+    }
+    .english{
+        margin-right:251px;
+
+    }
+   
+   
+    
+
+

@@ -1,0 +1,312 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 55%;
+    min-height: 500px;
+    border-radius: 5px 5px;
+    border: 1px solid #b2bec3;
+    margin-top: 30px;
+    padding: 30px;
+
+
+
+}
+
+.side-logo {
+    width: 40%;
+    float: right;
+    margin-top: 100px;
+    margin-right: 20px;
+
+    text-align: center;
+
+}
+
+.side-logo p {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.side-logo img {
+    width: 70%;
+}
+
+.google-logo {
+    margin-left: 20px;
+
+}
+
+
+
+
+
+
+
+
+.heading {
+    font-size: 25px;
+    margin: 0px 0px 30px 30px;
+}
+
+.fname {
+
+
+    height: 30px;
+    width: 36%;
+    border: 1px solid #b2bec3;
+    border-radius: 3px 3px;
+    outline: none;
+
+}
+
+
+
+
+.input-field {
+    margin: 30px 0px 30px 30px;
+}
+
+.email {
+    margin: 30px;
+
+
+
+
+}
+
+.div-email {
+    position: relative;
+}
+
+.div-email label {
+    position: absolute;
+    top: 7px;
+    right: 67px;
+
+}
+
+.input-email {
+    width: 81%;
+    height: 30px;
+    border: 1px solid #b2bec3;
+    border-radius: 3px 3px;
+    outline: none;
+
+
+}
+
+.current-email {
+    margin-top: 20px;
+}
+
+
+.pswrd-msg {
+    font-size: 12px;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 14px;
+
+}
+
+.user-input {
+    margin: 30px 0px 0px 28px;
+
+}
+
+.pswrd-user-input {
+    width: 36%;
+    height: 30px;
+    border: 1px solid#b2bec3;
+    border-radius: 3px 3px;
+    outline: none;
+}
+
+.user-input-msg {
+    font-size: 12px;
+    width: 80%;
+
+    margin-left: 27px;
+}
+
+.checkbox {
+    margin: 30px 0px 0px 29px;
+
+    width: fit-content;
+
+
+}
+
+.input-checkbox {
+    height: 15px;
+    width: 15px;
+
+}
+
+label {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.sign-in-instead {
+    margin: 50px 0px 0px 28px;
+}
+
+
+.btn {
+    background-color: #1a73e8;
+    border: 2px solid#1a73e8;
+    width: 70px;
+    height: 35px;
+    color: white;
+    border-radius: 2px 2px;
+    margin-left: 120px;
+}
+
+input:focus {
+    border: 2px solid blue;
+}
+
+form {
+    width: 60%;
+    height: 500px;
+
+}
+
+form input {
+    transition: 0.3s;
+}
+
+#name_error {
+    font-size: 12px;
+    color: red;
+    visibility: hidden;
+}
+
+#email_error {
+    font-size: 12px;
+
+    color: red;
+    visibility: hidden;
+
+}
+
+#password_error {
+    font-size: 12px;
+
+    color: red;
+    visibility: hidden;
+}
+
+ul {
+
+
+    padding: none;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.foot-content {
+    margin-left: 0px;
+    padding-left: 18px;
+}
+
+li,
+li a {
+    list-style: none;
+    color: gray;
+
+}
+
+.english {
+    margin-left: -14px;
+}
+
+footer {
+    border: 2px solid black;
+
+}
+
+
+
+
+@media only screen and (max-width:800px) {
+    body {
+        overflow-x: none;
+    }
+
+    .container {
+        width: 100%;
+        border: 0px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .side-logo {
+
+        display: none;
+    }
+
+    .fname {
+        width: 95%;
+        margin-top: 15px;
+
+    }
+
+    .input-email {
+        width: 100%;
+    }
+
+    .input-email label {
+        right: 100px;
+    }
+
+    .pswrd-user-input {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .btn {
+        margin-left: 20px;
+    }
+
+    footer {
+        margin-top: 140px;
+    }
+}
+
+@media (min-width:801px) and (max-width:1098px) {
+    .btn {
+
+        margin-left: 20px;
+
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+}
